@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services </title>
+</head>
+<style>
+    *{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;}
+header{
+	width: 100%;
+	height: 20vh;
+	background: black;
+	clip-path: polygon(0% 0%,100% 0%, 100% 100%,80% 80%,0% 100%);
+}
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+}
+.logo{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+#blue{
+	color:#74b9ff;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+#about-link{
+	border-bottom: 2px solid #74b9ff;
+}
+.icon img{
+	width: 100px;
+}
+
+
+
+
+
+#about{
+	padding: 100px 0px;
+}
+.about-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.about-left-col{
+	flex-basis: 50%;
+
+}
+.about-right-col{
+	flex-basis: 50%;	
+	text-align: center;
+}
+.about-right-col img{
+	width: 80%;
+}
+.about-left-col{
+	max-width: 400px;
+	margin:auto;
+}
+
+
+.about-left-col h1{
+	font-size: 50px;
+}
+.about-left-col p{
+	font-size: 20px;
+	text-align: justify;
+	margin:15px 0px;
+}
+
+
+.c-btn{
+	padding: 10px;
+	margin:10px 0px;
+	color: white;
+	border: none;
+	background: #74b9ff;
+}
+
+
+
+
+
+#members{
+	padding: 100px;
+	background: url(images/dumble.png);
+	background-size: 35% 35%;
+	background-repeat: no-repeat;
+	background-position: top right;
+    background-color: aliceblue;
+}
+.member-card{
+	text-align: center;
+	padding-top: 50px;
+	width: 50%;
+	margin:auto;
+	}
+
+.member-card p{
+	margin:20px 0px;
+}
+.member-card h2{
+	margin:20px 0px;
+}
+
+
+
+
+#footer{
+	background: black;
+	color:white;
+	padding: 10px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#footer h1{
+	font-size: 50px;
+}
+#footer p{
+	font-size: 25px;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span id="blue">DK</span>GT
+            </div>
+            <div class="menu">
+                <a href="home.html">Home</a>
+                <a href="About.html" id="about-link">About</a>
+                <a href="Service.html" >Services</a>
+                <a href="Contact.html" >Contact</a>
+            </div>
+    
+            <div class="icon">
+                <img src="images/icon.png">
+            </div>
+    
+        </nav>
+    </header>
+
+
+
+
+    <section id="about">
+        <div class="about-row">
+            <div class="about-left-col">
+                <h1> About <span id="blue">me</span></h1>
+                <p id="p-title">I am a Gym Trainer</p>
+                <p>
+                    From Chitwan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.
+    
+                </p>
+                <p>
+                    From Chitwan,doing gym is good for healthy life.
+                </p>
+                <button class="c-btn">Read more</button>
+            </div>
+            <div class="about-right-col">
+                <img src="images/img1.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="members">
+		<div class="services-info">
+			<h1>Our <span id="blue">Members</span></h1>
+        <p>What our gym member says</p>
+        </div>
+        <div class="member-card">
+            <img src="images/member.png">
+            <p>
+                    From Chitwan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it release stress from our mind.
+            </p>
+            <h2>* Puri , Gym Client</h2>
+
+            <img src="images/icon.png">
+        </div>
+    </section>
+
+
+
+    <section id="footer">
+        <h1>DK<span id="blue">GT</span></h1>
+        
+        <p>&copy; 2023 DKGT, Chitwan, Nepal </p>
+        <img src="images/icon.png">
+    
+    </section>
+</body>
+</html>
